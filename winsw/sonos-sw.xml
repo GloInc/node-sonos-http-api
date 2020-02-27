@@ -1,0 +1,10 @@
+<service>
+  <id>sonos</id>
+  <name>sonos</name>
+  <description>sonos</description>
+  <executable>%BASE%\server.exe</executable>
+  <logpath>C:\log</logpath>
+  <log mode="roll-by-time">
+      <pattern>yyyyMMdd</pattern>
+  </log>
+</service>
